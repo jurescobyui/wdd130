@@ -3,9 +3,13 @@ body {
     text-align: center;
 }
 
-nav {
+nav, footer{
     background-color: steelblue;
+    color: white;
     padding: 10px;
+}
+nav {
+   
   }
 
   a {
@@ -46,7 +50,13 @@ nav {
     text-align: center;
   }
 
-  footer {
-    background-color: steelblue;
-    color: white;
+  a:hover {
+    background-color: white;
+    color: steelblue;
+  }
+
+  footer p {
+    font-size: 20px;
+    margin: 20px auto;
+   
   }

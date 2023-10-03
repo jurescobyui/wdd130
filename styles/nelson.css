@@ -1,0 +1,46 @@
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #FBA5CA;
+}
+
+h1 {
+    text-align: center;
+    color:white;
+}
+
+p#hero-text, p#hero-author{
+    color:white;
+    text-align: center;
+}
+
+h1:hover{
+    color: black;
+}
+
+#list{
+    font-weight: bold;
+    max-width: 30%;
+    display:block;
+    margin: 1.5em auto;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    max-width:20%;
+}
+
+#quote{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+    max-width: 30%;
+    margin: 20px auto;
+    font-size: 3em;
+}
+
+footer{
+    text-align: center;
+}
