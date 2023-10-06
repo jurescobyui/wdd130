@@ -51,6 +51,10 @@ footer a{
     color: white;
     text-decoration: none;
 }
+footer a:hover{
+    color:black;
+    background-color: #fff3b0;
+}
 footer p {
     font-size: 1.2em;
 } 
