@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            max-width: 1000px;
+            margin: 0 auto;
+            border: thin red solid;
+        }
+        #garden{
+
+            display: grid;
+            grid-template-columns: repeat(5,20%);
+            grid-template-rows: repeat(5,20%);
+        }
+        #water{
+            height:100px;
+            width: 100px;
+            background-color: blue;
+            grid-column: 1/6;
+            grid-row: 5/6;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="garden">
+
+            <div id="water">
+                    
+            </div>
+
+
+        </div>
+
+    </div>
+</body>
+</html>
