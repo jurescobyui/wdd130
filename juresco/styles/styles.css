@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald&family=Rock+Salt&display=swap');
 
-h1,h2,h3,h4,a{
+h1,h2,h3,h4,a, form{
     font-family: Oswald;
 }
 p{
@@ -203,6 +203,8 @@ padding:10px;
 }
 main img{
     width:100%;
+    border:thin solid #4c6747;
+    box-shadow: 5px 5px gray;
 }
 /* contact page css large screen */
 #contactgrid{
@@ -238,6 +240,32 @@ grid-row: 1/2;
     grid-row:4/5;
 
 }
+/*form css*/
+input[type=text], input[type=email], input[type=phone], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4c6747;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width:50%;
+  }
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
 /*  
 common footer css for all pages
 */
