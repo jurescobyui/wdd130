@@ -241,7 +241,7 @@ grid-row: 1/2;
 
 }
 /*form css*/
-input[type=text], input[type=email], input[type=phone], select, textarea {
+input[type=text], input[type=email], input[type=tel], select, textarea {
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */ 
     border: 1px solid #ccc; /* Gray border */
